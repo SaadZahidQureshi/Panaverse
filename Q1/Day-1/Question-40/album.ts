@@ -1,10 +1,21 @@
-function make_album(artist: string, title: string, tracks?: number): { artist: string, title: string, tracks?: number } {
-    let album = { artist, title };
-    if (tracks) {
-      album.tracks = tracks;
+function make_album(artist: string, title: string, tracks?: number){
+    type Album  = {
+        name: string,
+        title:string,
+        tracks?: number
     }
-    return album;
-  }
+
+    const album : Album = {
+        name:artist,
+        title:title,
+    }
+    if(tracks){
+        album.tracks = tracks
+    }
+
+    return album
+
+}
   
   let album1 = make_album('Queen', 'A Night at the Opera');
   let album2 = make_album('The Beatles', 'Abbey Road', 17);

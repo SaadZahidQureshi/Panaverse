@@ -1,14 +1,17 @@
 "use strict";
-function make_album(artist, title) {
+function make_album(artist, title, tracks) {
     const album = {
-        artist: artist,
+        name: artist,
         title: title,
     };
+    if (tracks) {
+        album.tracks = tracks;
+    }
     return album;
 }
-const album1 = make_album('Daft Punk', 'Random Access Memories');
+let album1 = make_album('Queen', 'A Night at the Opera');
+let album2 = make_album('The Beatles', 'Abbey Road', 17);
+let album3 = make_album('Pink Floyd', 'Dark Side of the Moon', 10);
 console.log(album1);
-const album2 = make_album('The Beatles', 'Abbey Road');
 console.log(album2);
-const album3 = make_album('Pink Floyd', 'The Dark Side of the Moon');
 console.log(album3);
