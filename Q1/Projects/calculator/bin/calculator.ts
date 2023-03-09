@@ -15,7 +15,7 @@ function main() {
   if (validinput) {
     const number1: number = parseInt(str1);
     const number2: number = parseInt(str2);
-    // const operator : number =parseInt(oper)
+    // const operator : number =parseInt(oper) 
 
     console.log(calculate(number1, number2, oper));
   } else {
