@@ -8,11 +8,11 @@ function main() {
     let oper = (0, readline_sync_1.question)("Enter operator : ");
     let str2 = (0, readline_sync_1.question)("Enter 2nd number : ");
     const validinput = isNumber(str1) && isNumber(str2) && isOperator(oper);
-    console.log(validinput);
+    // console.log(validinput)
     if (validinput) {
         const number1 = parseInt(str1);
         const number2 = parseInt(str2);
-        // const operator : number =parseInt(oper)
+        // const operator : number =parseInt(oper) 
         console.log(calculate(number1, number2, oper));
     }
     else {

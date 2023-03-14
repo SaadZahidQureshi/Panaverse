@@ -2,5 +2,34 @@
   "dependencies": {
     "@types/readline-sync": "^1.4.4",
     "readline-sync": "^1.4.10"
+  },
+  "name": "atm_bysaad",
+  "version": "1.1.0",
+  "description": "this is my panaverse learning project to make a atm machince console based software",
+  "main": "atm.js",
+  "bin": {
+    "atm_bysaad": "bin/atm.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npx atm_bysaad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaadZahidQureshi/Panaverse.git"
+  },
+  "keywords": [
+    "atm",
+    "consoleatm",
+    "atmcli"
+  ],
+  "author": "saad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaadZahidQureshi/Panaverse/issues"
+  },
+  "homepage": "https://github.com/SaadZahidQureshi/Panaverse#readme",
+  "bin": {
+    "multiply": "bin/atm.js"
   }
 }

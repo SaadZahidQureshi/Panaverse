@@ -1,6 +1,6 @@
 {
   "name": "calculator_bysaad",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "simple assignment to create npm paackage and puch it into repository",
   "main": "index.js",
   "scripts": {
